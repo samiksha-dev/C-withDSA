@@ -5,7 +5,7 @@ int main(){
     cout<<"Enter the No.";
     cin>>num;
     while(num!=0){
-        rev=num%10;
+        rem=num%10;
         rev=rev*10+rem;
                 num=num/10;
 

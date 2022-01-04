@@ -6,7 +6,7 @@ int main(){
     cin>>a>>b;
     for(num=a;num<b;num++)
     {
-        for(i=2;i<num;i++)
+        for(i=2;i<(num);i++) //sice agr 
         {
         if(num%i==0)
         break;
