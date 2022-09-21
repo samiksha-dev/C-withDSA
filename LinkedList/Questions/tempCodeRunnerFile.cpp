@@ -1,0 +1,3 @@
+delete zeroHead;
+    delete onesHead;
+    

@@ -33,10 +33,11 @@ int main()
     cout << d1.back() << endl;
     cout << d1.front() << endl;
     cout << "Empty or not" << d1.empty() << endl;
-    ;
+
     cout << "Before erase" << d1.size() << endl;
     d1.erase(d1.begin(), d1.begin() + 1); // isme batana padta hai kaha se kaha delete karna hai
     cout << "After erase" << d1.size() << endl;
     // Note:after erase size becomes 0 but max size remains same as it was in starting
+    // we also even have rbegin,rend,end,begin
     return 0;
 }

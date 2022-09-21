@@ -7,7 +7,7 @@ using namespace std;
 // for second time we did N/2 comparisions
 // then we did N/8
 // therefore upto N/2^k we did this was the element we got at last whose lenght is 1
-// therefore N/2^k=1 k=logN base 2
+// therefore N/2^k=1(since last me ek element bachega) k=logN base 2
 // Time Complexity of Linear search is O(n)
 /
 

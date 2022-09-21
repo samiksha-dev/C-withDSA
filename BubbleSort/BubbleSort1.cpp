@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+// for every ith round the largest element reach its right n-ith position
 void bubble(int arr[], int n)
 {
     for (int i = 1; i < n; i++) //-->since hum pehle waale element ko sorted maan lete hai islye i=1

@@ -1,0 +1,21 @@
+static                                                                          dynamic
+->int arr[5]                                                       ->int *ptr=new arr[5]
+total size=5*4=20                                                   total size=5*4+ (8or4)=28 or24
+
+->while(true){                                               ->while(true){
+                                                            int *ptr=new int;
+                                                            }
+                                                            toh isme ptr ne stack me 8 byte lia heap
+                                                            ne li 4 toh jb bahar gye stack ki memory toh deallocate
+                                                            //ho gyi but heap memory rhi toh har baar +4 +4 hota jaega
+}                                                     
+    int i=5;
+}
+toh isme kya ho rha hoga
+pehle baar andar aae 4 byte ki memory bani
+bahar nikle phir delete
+phir andar aae 4 ki bani phir bahar gye delete
+
+
+-->in static memory is deallocated                        -->in heap memory needs to be dealloacted manually
+automatically

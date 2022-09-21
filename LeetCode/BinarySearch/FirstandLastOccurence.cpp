@@ -28,7 +28,7 @@ int main()
         if (vec[mid] == key)
         {
             firstOccurence = mid;
-            end = mid - 1;
+            end = mid - 1;//since leftmost occurence chahye na
         }
         else if (vec[mid] > key)
         {
@@ -51,7 +51,7 @@ int main()
         if (vec[mid2] == key)
         {
             lastOccurence = mid2;
-            start2 = mid2 + 1;
+            start2 = mid2 + 1;//since rightmost occurence chahye
         }
         else if (vec[mid2] > key)
         {
